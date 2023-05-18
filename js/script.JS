@@ -28,7 +28,6 @@ function procesarXML(xmlContent) {
       var atributo = elemento.getAttribute("descripcion");
       var contenido = elemento.textContent;
       // Haz algo con los atributos y contenido
-      console.log("Atributo:", atributo);
       console.log("Contenido:", contenido);
     }
   }
